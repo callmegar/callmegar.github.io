@@ -171,8 +171,8 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
-  - [vendor]
-  - [examples]
+  - vendor/
+  - examples/
 
 # prose.io config
 prose:
