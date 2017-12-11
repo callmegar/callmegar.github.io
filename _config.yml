@@ -171,6 +171,8 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - [vendor]
+  - [examples]
 
 # prose.io config
 prose:
@@ -224,8 +226,15 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
+algolia:
+  application_id: 'IB8DPJFQ2B'
+  index_name: 'technomachy'
+  excluded_files: 
+    - examples/
+
 plugins:
   - jekyll-paginate
+  - algoliasearch-jekyll
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
