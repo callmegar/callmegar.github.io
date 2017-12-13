@@ -24,6 +24,7 @@ description: ...my struggle with technology.
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Search: "search"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
@@ -229,6 +230,9 @@ prose:
 algolia:
   application_id: 'IB8DPJFQ2B'
   index_name: 'technomachy'
+  attributeForDistinct: 'title'
+  distinct: true
+  facetingAfterDistinct: true
   excluded_files: 
     - examples/
 

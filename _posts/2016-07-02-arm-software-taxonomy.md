@@ -1,10 +1,15 @@
 ---
 layout: post
-title: "ARM Software Taxonomy in JSON Format"
+title: "FEAF Software Taxonomy"
+subtitle: "ARM in JSON Format"
 date: 2016-07-02 12:52:01 -0500
 comments: true
 categories: [EA, Taxonomies]
 keywords: ea,arm,feaf,taxonomy
+tags:
+  - "Enterprise Architecture"
+  - "Taxonomies"
+  - "FEAF"
 ---
 
 

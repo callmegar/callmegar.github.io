@@ -9,7 +9,7 @@ My name is German Rodriguez. I have the following qualities:
 - Versatile and experienced technologist.
 - Hardcore pin collector.
 - Youth football Coach.
-- Sith Lord.
+- Sith Lord (the old ones, not the current emo type).
 
 What else do you need?
 

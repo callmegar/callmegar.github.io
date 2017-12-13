@@ -2,6 +2,11 @@
 layout: post
 title: Bare metal Kubernetes I
 subtitle: Setting up a PXE boot environment
+tags: 
+  - "Kubernetes"
+  - "PXE"
+  - "Matchbox"
+  - "Bare metal"
 ---
 
 My goal was to setup a Kubernetes 1.8 environment using bare metal servers running on CoreOS Container Linux. Container Linux is a compact operating system, on bare metal the provisioning is most times automated using a PXE boot environment and tools like [Matchbox](https://github.com/coreos/matchbox), [Mayu](https://github.com/callmegar/mayu) or [RackHD](https://github.com/RackHD/RackHD). Matchbox (maintained by CoreOS) is by far the simplest and easier to use for installs based on Container Linux, it requires an existing PXE boot environment, you can use your existing DHCP infrastructure or if you want to keep it separate [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) can be used to provide such environment.
